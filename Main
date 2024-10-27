@@ -1,0 +1,17 @@
+
+public class Main {
+    public static void main(String[] args) {
+        Animales perro = new Animales();
+        perro.nombre= "Lacky";
+        perro.raza= "Schnauzer";
+        perro.tipo = "Mamifero";
+        perro.infoanimal();
+
+        Animales colibri= new Animales();
+        colibri .nombre= "Maria";
+        colibri.raza= "Trochilidae";
+        colibri.tipo  = "Oviparo";
+        colibri.infoanimal();
+
+    }
+}
