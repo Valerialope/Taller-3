@@ -1,0 +1,13 @@
+
+public class Animales {
+    String nombre;
+    String raza;
+    String tipo;
+
+    public void infoanimal(){
+        System.out.println();
+        System.out.println("Nombre: " + this.nombre);
+        System.out.println("Raza: " + this.raza);
+        System.out.println("Tipo: " + this.tipo);
+    }
+}
